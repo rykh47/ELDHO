@@ -239,6 +239,7 @@ a:hover {
     margin: 0 15px 0 0;
     box-shadow: 0 0 0 3px #240090;
     transition: all 500ms ease;
+    padding-top: 4px;
 }
 
 .socials .ico-circle:hover {
