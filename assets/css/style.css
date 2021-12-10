@@ -203,7 +203,7 @@ a:hover {
 .box-shadow-full {
     padding: 3rem 1.25rem;
     position: relative;
-    background-color: #b481e7;
+    background-color: #d8b9f8;
     margin-bottom: 3rem;
     z-index: 2;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
@@ -498,6 +498,7 @@ input[type="email"] {
 .button-big {
     padding: 0.9rem 2.3rem;
     font-size: 1.2rem;
+    margin-top: 10px;
 }
 
 .button-rouded {
@@ -531,7 +532,7 @@ input[type="email"] {
 }
 
 #header .logo a {
-    color: #fff;
+    color: #d8b9f8;
 }
 
 #header .logo img {
@@ -579,7 +580,7 @@ input[type="email"] {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #fff;
+    color: #d8b9f8;
     font-size: 16px;
     font-weight: 600;
     padding: 0;
@@ -605,7 +606,7 @@ input[type="email"] {
     bottom: -6px;
     left: 0;
     width: 0;
-    background-color: #fff;
+    background-color: #d8b9f8;
     visibility: hidden;
     transition: all 0.3s ease-in-out 0s;
 }
@@ -621,7 +622,7 @@ input[type="email"] {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-    color: #fff;
+    color: #d8b9f8;
 }
 
 .navbar .dropdown ul {
@@ -694,7 +695,7 @@ input[type="email"] {
 */
 
 .mobile-nav-toggle {
-    color: #fff;
+    color: #d8b9f8;
     font-size: 28px;
     cursor: pointer;
     display: none;
@@ -718,7 +719,7 @@ input[type="email"] {
     right: 0;
     left: 0;
     bottom: 0;
-    background: rgba(78, 78, 78, 0.9);
+    background: rgba(28, 68, 117, 0.9);
     transition: 0.3s;
     z-index: 999;
 }
@@ -737,7 +738,7 @@ input[type="email"] {
     bottom: 15px;
     left: 15px;
     padding: 10px 0;
-    background-color: #fff;
+    background-color: #d8b9f8;
     overflow-y: auto;
     transition: 0.3s;
 }
@@ -812,7 +813,7 @@ input[type="email"] {
 .hero {
     height: 100vh;
     position: relative;
-    color: #fff;
+    color: #d8b9f8;
 }
 
 .hero .hero-content {
@@ -832,7 +833,7 @@ input[type="email"] {
 }
 
 .hero .hero-title {
-    color: #fff;
+    color: #d8b9f8;
     font-weight: 600;
     font-size: 3rem;
 }
@@ -915,6 +916,11 @@ input[type="email"] {
     }
 }
 
+.about-info {
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
 .skill-mf span {
     color: #000000;
 }
@@ -928,7 +934,7 @@ input[type="email"] {
 
 .skill-mf .progress .progress-bar {
     height: 0.7rem;
-    background-color: #240090;
+    background-color: #ab5fce;
 }
 
 
