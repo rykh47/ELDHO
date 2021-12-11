@@ -537,6 +537,61 @@ input[type="email"] {
     color: #d8b9f8;
 }
 
+
+/* animation */
+
+.logo {
+    animation: movedown .9s cubic-bezier(0.34, 0.02, 0.71, 0.97) 1;
+    animation-delay: .3s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+.link1 {
+    animation: movedown .9s cubic-bezier(0.34, 0.02, 0.71, 0.97) 1;
+    animation-delay: .5s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+.link2 {
+    animation: movedown .9s cubic-bezier(0.34, 0.02, 0.71, 0.97) 1;
+    animation-delay: .9s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+.link3 {
+    animation: movedown .9s cubic-bezier(0.34, 0.02, 0.71, 0.97) 1;
+    animation-delay: .7s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+.link4 {
+    animation: movedown .9s cubic-bezier(0.34, 0.02, 0.71, 0.97) 1;
+    animation-delay: .11s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+
+/* keyframes */
+
+@keyframes movedown {
+    0% {
+        transform: translateY(-100px);
+        visibility: visible;
+    }
+    100% {
+        transform: translateY(0px);
+        visibility: visible;
+    }
+}
+
+
+/* animation */
+
 #header .logo img {
     max-height: 40px;
 }
@@ -690,6 +745,8 @@ input[type="email"] {
         left: -100%;
     }
 }
+
+.nav-link {}
 
 
 /**
