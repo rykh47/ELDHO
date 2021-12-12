@@ -286,9 +286,9 @@ a:hover {
 }
 
 .socials .ico-circle:hover {
-    background-color: #240090;
-    color: #fff;
-    box-shadow: 0 0 0 3px #cde1f8;
+    background-color: #6fdecd;
+    color: #697454;
+    box-shadow: 0 0 0 3px #697454;
     transition: all 500ms ease;
 }
 
@@ -527,16 +527,17 @@ input[type="email"] {
 }
 
 .button:hover {
-    background-color: #6b3a66;
-    color: #fff;
+    background-color: #62fbd6;
+    color: #697454;
     transition: all 500ms ease;
+    border: 3px solid #697454;
 }
 
 .button-a {
     text-decoration: none;
     background-color: #34655200;
     color: #62fbd6;
-    border-color: #62fbd6;
+    border: 3px solid #62fbd6;
 }
 
 .button-big {
@@ -1114,7 +1115,7 @@ input[type="email"] {
 .service-box:hover .ico-circle {
     transition: all 500ms ease;
     color: #fff;
-    background-color: #240090;
+    background-color: #6fdecd;
     box-shadow: 0 0 0 10px #cde1f8;
 }
 
