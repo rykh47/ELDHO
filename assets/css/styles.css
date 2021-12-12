@@ -320,7 +320,6 @@ a:hover {
 /*------/ Ico Circle /------*/
 
 .ico-circle {
-    padding-top: .4rem;
     height: 100px;
     width: 100px;
     font-size: 2rem;
@@ -1168,6 +1167,7 @@ input[type="email"] {
 }
 
 .counter-ico .ico-circle {
+    padding-top: .2rem;
     height: 60px;
     width: 60px;
     line-height: 1.5;
