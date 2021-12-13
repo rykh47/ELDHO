@@ -30,10 +30,9 @@
             <h1 class="logo"><a href="index.html">Eldho</a></h1>
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto link1 active" href="#hero">Home</a></li>
-                    <li><a class="nav-link scrollto link2" href="#main">About</a></li>
-                    <li><a class="nav-link scrollto link4" href="#contact">Contact</a></li>
+                    <li><a class="nav-link scrollto link2" href="#about">About</a></li>
                     <li><a class="nav-link scrollto link4" href="#contact">Works</a></li>
+                    <li><a class="nav-link scrollto link4" href="#contact">Contact</a></li>
                     <li><a class="nav-link scrollto link5" download href="./resume.pdf">Resume</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
@@ -49,7 +48,6 @@
         <div class="hero-content display-table">
             <div class="table-cell">
                 <div class="container">
-
                     <p class="hero-1"> I am</p>
                     <h1 class="hero-title mb-4" id="name">Eldho Babu</h1>
                     <p class="hero-subtitle"><span class="typed" data-typed-items="Designer, Developer, Freelancer, Gamer"></span></p>
@@ -59,7 +57,8 @@
         </div>
     </div>
     <main id="main">
-        <section id="about" class="about-mf sect-pt4 route">
+        <a name="about"></a>
+        <section class="about-mf sect-pt4 route">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
@@ -67,19 +66,19 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="row">
-                                        <div class="col-sm-12  col-lg-8 col-xl-5">
+                                        <div class="col-sm-12  col-lg-8 col-xl-5 align-item">
                                             <div class="pic-bor">
                                                 <div class="about-img">
                                                     <img src="assets/img/face.jpeg" class="img-fluid rounded b-shadow-a eldho" alt="Eldho-img">
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-lg-7 col-xl-7 align-middle">
+                                        <div class="col-sm-12 col-lg-8 col-xl-7 ">
                                             <div class="about-info">
                                                 <p><span class="title-s">Name: </span> <span>Eldho Babu</span></p>
-                                                <p><span class="title-s">Profile: </span> <span>full stack developer</span></p>
+                                                <p><span class="title-s">Profile: </span> <span>Front-End developer</span></p>
                                                 <p><span class="title-s">Email: </span> <span>rykh47@gmail.com</span></p>
-                                                <p><span class="title-s">Phone: </span> <span>+91 9747805224</span></p>
+                                                <p><span class="title-s">Phone: </span> <span>+91-9747805224</span></p>
                                             </div>
                                         </div>
                                     </div>
@@ -180,13 +179,14 @@
         </div>
         <!-- End Counter Section -->
         <!-- ======= Contact Section ======= -->
-        <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route reveal" style="background-image: url(assets/img/overlay-bg.jpg)">
+        <a name="contact"></a>
+        <section class="paralax-mf footer-paralax bg-image sect-mt4 route reveal" style="background-image: url(assets/img/overlay-bg.jpg)">
             <div class="overlay-mf"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="contact-mf">
-                            <div id="contact" class="box-shadow-full">
+                            <div class="box-shadow-full ">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="title-box-2">
@@ -270,7 +270,7 @@
             el: "#hero",
             mouseControls: true,
             touchControls: true,
-            gyroControls: false,
+            gyroControls: true,
             minHeight: 200.00,
             minWidth: 200.00,
             scale: 1.00,

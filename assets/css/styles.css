@@ -248,12 +248,30 @@ a:hover {
     transition: all .3s linear;
 }
 
+@media (max-width:1030px) {
+    .about-img::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 255, 255, 0);
+        transition: all .3s linear;
+    }
+    .align-item {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 .about-img:hover:before {
     background: none
 }
 
 .pic-bor {
-    border: solid 2px black;
+    border: solid 2px #61f7d3;
+    border-radius: 5px;
 }
 
 @media (min-width: 768px) {
@@ -831,7 +849,7 @@ input[type="email"] {
     right: 0;
     left: 0;
     bottom: 0;
-    transition: 0.3s;
+    transition: all 0.3s ease-in-out 0s;
     z-index: 999;
 }
 
@@ -1380,6 +1398,10 @@ input[type="email"] {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+
+.contacts {
+    z-index: 10000;
+}
 
 .footer-paralax {
     padding: 4rem 0 0 0;
